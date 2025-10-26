@@ -1,7 +1,7 @@
 Task 3 — Basic Vulnerability Scan on Local Machine
 Internship:  Elevate labs Cybersecurity Internship — Task 3
 Tools: Nessus Essentials
-Target: Windows 11 (192.168.)
+Target: Windows 11 (192.168.29.194)
 
 
 * Objective: 
@@ -10,15 +10,14 @@ Perform a basic vulnerability assessment of my local Windows 11 machine using Ne
 
 * Tools:
 - Nessus Essentials (version: [show version if available])
-- Windows 11 (Host: 192.168.0.102)
-- Browser: Firefox/Chrome for Nessus UI
+- Windows 11 (Host: 192.168.29.194)
 - IP discovery: ipconfig (Windows)
 
 
 *  Setup & Scan Configuration
-I installed Nessus Essentials, registered with a free activation key, and created a Basic Network Scan. The scan target was my local IP 192.168.0.102. A default plugin set was used.
+I installed Nessus Essentials, registered with a free activation key, and created a Basic Network Scan. The scan target was my local IP 192.168.29.194. A default plugin set was used.
 * Vulnerability Review & Severity Analysis
-The Nessus Essentials scan on the local machine (192.168.0.102, Windows 11) identified 26 vulnerabilities.
+The Nessus Essentials scan on the local machine (192.168.29.194, Windows 11) identified 26 vulnerabilities.
 Severity Summary
 * Critical: 0
 
